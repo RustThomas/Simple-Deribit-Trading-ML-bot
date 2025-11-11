@@ -19,7 +19,7 @@ You will need to generate an API key on Deribit and then replace ```client_id```
 
 **Do not share them.**
 
-You may optionally switch to Deribit testing environment to experiment before going live. 
+You may optionally switch to Deribit testing environment to experiment before going live. To do so, generate an API key on the test Network (make sure to use a different password than on the live network). 
 
 Them, simply run ```main.py```. 
 
