@@ -5,7 +5,7 @@ This bot was profitable during a testing period of a few days in october 2025. T
 
 Significant tuning and changes are likely needed, including model, data and covariates. Consider user defined metrics and be aware of Regime Shifts. 
 
-The code of this project is absolutely not guaranteed to be without risks nor profitable. 
+The code of this project is absolutely not guaranteed to be without risks nor profitable. Time allowing, I will expand on the documentation and provide other examples. 
 
 If you'd wish to tip me for these measly lines of code, you may do so at ```0x15156ba57acce78843367f0a5816b52e06870ef5```.
 
