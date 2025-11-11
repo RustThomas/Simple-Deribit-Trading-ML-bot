@@ -8,9 +8,11 @@ The code of this project is absolutely not guaranteed to be without risks nor pr
 
 # Using
 To use, you need to generate an API key on Deribit and then replace client_id and client_secret with yours.
+
 **Do not share them.**
+
 You may switch to Deribit testing environment to experiment before going live.
 
-Them, simply run it. 
+Them, simply run main. 
 
 
