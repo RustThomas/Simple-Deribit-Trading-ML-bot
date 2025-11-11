@@ -15,7 +15,7 @@ Clone this repository with the command ```gh repo clone RustThomas/Simple-Deribi
 
 This project requires Darts, Pandas. To install dependencies, you may use ```pip install -r requirements.txt```
 
-You will need to generate an API key on Deribit and then replace client_id and client_secret with yours. You can also change the instrument by using a different instrument_name.  
+You will need to generate an API key on Deribit and then replace client_id and client_secret with yours. You can also change the instrument by using a different instrument_name string, such as the various Futures like BTC-26DEC25 that have high maker rebates or other currencies such as ETH_PERPETUAL.  
 
 **Do not share them.**
 
