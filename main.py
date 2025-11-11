@@ -13,7 +13,6 @@ instrument_name = "BTC-PERPETUAL"
 client_id = "replace_with_your_client_id"
 client_secret ="replace_with_your_client_secret"
 
-client_secret
 msgauth = \
 {"id":9929,"jsonrpc":"2.0","method":"public/auth","params":{"client_id":client_id,"client_secret":client_secret,"grant_type":"client_credentials",
                                                             "scope":"session:name"}}
@@ -179,3 +178,4 @@ while True :
     asyncio.get_event_loop().run_until_complete(call_api(json.dumps(msg)))
     #29 seconds chosen arbitrarily
     time.sleep(29)
+
