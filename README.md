@@ -19,7 +19,7 @@ You will need to generate an API key on Deribit and then replace ```client_id```
 
 **Do not share them.**
 
-You may switch to Deribit testing environment to experiment before going live.
+You may optionally switch to Deribit testing environment to experiment before going live. 
 
 Them, simply run main. 
 
