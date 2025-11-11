@@ -6,7 +6,7 @@ This bot was profitable during a testing period of a few days in october 2025. T
 Significant tuning and changes are likely needed, including model, data and covariates. Consider user defined metrics, especially related to supports, resistances, maybe RSI and be aware of Regime Shifts.  
 You may try to use [Polars](https://pola.rs/) instead of [Pandas](https://pandas.pydata.org/) as well as other ML libraries. 
 
-The code of this project is absolutely not guaranteed to be without risks nor profitable. Time allowing, I will refactor the code in modules, expand on the documentation and provide other examples. 
+The code of this project is absolutely not guaranteed to be without risks nor profitable. Time allowing, I will refactor the code in modules, expand on the documentation and provide examples. 
 
 If you'd wish to thank me for these measly lines of code, you may do so by using my [referal link for metamask](https://link.metamask.io/rewards?referral=CMBA5F) or at ```0x15156ba57acce78843367f0a5816b52e06870ef5```.
 
