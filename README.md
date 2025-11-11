@@ -21,6 +21,6 @@ You will need to generate an API key on Deribit and then replace ```client_id```
 
 You may optionally switch to Deribit testing environment to experiment before going live. 
 
-Them, simply run main. 
+Them, simply run ```main.py```. 
 
 
