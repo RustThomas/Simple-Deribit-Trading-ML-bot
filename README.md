@@ -9,6 +9,9 @@ The code of this project is absolutely not guaranteed to be without risks nor pr
 If you'd wish to tip me for these measly lines of code, you may do so at 0x15156ba57acce78843367f0a5816b52e06870ef5.
 
 # Using
+
+This project requires Darts, Pandas. 
+
 To use, you need to generate an API key on Deribit and then replace client_id and client_secret with yours.
 
 **Do not share them.**
