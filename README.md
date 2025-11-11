@@ -3,7 +3,7 @@ Simple implementation of an automated cryptocurrency derivatives machine learnin
 
 This bot was profitable during a testing period of a few days in october 2025. The current parameters achieved a mean directional accuracy of 70% on the testing data with the default xgboost ```reg:squarederror``` objective function.  However, manual trading proved to generate larger profits. 
 
-Significant tuning and changes are likely needed, including model, data and covariates. Consider user defined metrics and be aware of Regime Shifts.  
+Significant tuning and changes are likely needed, including model, data and covariates. Consider user defined metrics, especially related to supports, resistances, RSI and be aware of Regime Shifts.  
 You may try to use [Polars](https://pola.rs/) instead of [Pandas](https://pandas.pydata.org/) as well as other ML libraries. 
 
 The code of this project is absolutely not guaranteed to be without risks nor profitable. Time allowing, I will expand on the documentation and provide other examples. 
