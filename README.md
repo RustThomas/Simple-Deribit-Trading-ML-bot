@@ -11,7 +11,7 @@ If you'd wish to tip me for these measly lines of code, you may do so at 0x15156
 
 # Using
 
-This project requires Darts, Pandas. 
+This project requires Darts, Pandas. To install dependencies, you may use ```pip install -r requirements.txt```
 
 To use, you need to generate an API key on Deribit and then replace client_id and client_secret with yours. You can also change the instrument by using a different instrument_name.  
 
