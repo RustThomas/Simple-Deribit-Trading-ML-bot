@@ -1,4 +1,6 @@
 import asyncio
+import os
+
 import websockets
 import json
 from darts import timeseries, TimeSeries
@@ -6,12 +8,12 @@ import pandas as pd
 import time
 from darts.models import XGBModel
 
-#Market
-instrument_name = "BTC-PERPETUAL"
+from dotenv import load_dotenv
 
-#Deribit API credentials
-client_id = "replace_with_your_client_id"
-client_secret ="replace_with_your_client_secret"
+load_dotenv()
+client_id = os.getenv("CLIENT_ID")
+client_secret = os.getenv("CLIENT_SECRET")
+instrument_name = os.getenv("INSTRUMENT_NAME")
 
 msgauth = \
 {"id":9929,"jsonrpc":"2.0","method":"public/auth","params":{"client_id":client_id,"client_secret":client_secret,"grant_type":"client_credentials",
@@ -178,4 +180,3 @@ while True :
     asyncio.get_event_loop().run_until_complete(call_api(json.dumps(msg)))
     #29 seconds chosen arbitrarily
     time.sleep(29)
-
