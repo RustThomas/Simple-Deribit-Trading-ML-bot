@@ -6,6 +6,8 @@ Significant tuning and changes are likely needed, including model, data and cova
 
 The code of this project is absolutely not guaranteed to be without risks nor profitable. 
 
+If you'd wish to tip this measly lines of code, you may do so at 0x15156ba57acce78843367f0a5816b52e06870ef5
+
 # Using
 To use, you need to generate an API key on Deribit and then replace client_id and client_secret with yours.
 
