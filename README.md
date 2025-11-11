@@ -1,5 +1,5 @@
 # Simple-Deribit-Trading-ML-bot
-Simple implementation of an automated trading bot on Deribit that uses a Darts model to predict price direction at next time resolution then open and closes orders.
+Simple implementation of an automated cryptocurrency derivatives machine learning trading bot on Deribit that uses a Darts' model to predict price direction at next time resolution then open and closes orders.
 
 This bot was profitable during a testing period of a few days in october 2025. The current parameters achieved a mean directional accuracy of 70% on the testing data with the default reg:squarederror objective function.  However, manual trading proved to generate larger profits. 
 
