@@ -17,7 +17,7 @@ If you'd wish to thank me for these measly lines of code, you may do so by using
 - This project requires [Darts](https://unit8co.github.io/darts/), Pandas. To install dependencies, you may use ```pip install -r requirements.txt```. Feel free to try with other libraries and to add hyperoptimization. DLinear is a good candidate, and even simple linear regression had decent results. 
 
 - You will need to [generate an API key](https://support.deribit.com/hc/en-us/articles/26268257333661-Creating-new-API-key-on-Deribit) on Deribit and then replace ```client_id``` and ```client_secret``` with yours in the ```.env``` file. You can change the instrument to Futures like ```BTC-26DEC25``` that have high maker rebates or other currencies such as ```ETH_PERPETUAL```.  
-**Do not share your API keys them.**
+**Do not share your API keys.**
 
 You may optionally switch to [Deribit testing environment](https://test.deribit.com/) to experiment before going live. To do so, generate an API key on the test Network (make sure to use a different password than on the live network). 
 
