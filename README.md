@@ -8,7 +8,7 @@ You may try to use [Polars](https://pola.rs/) instead of [Pandas](https://pandas
 
 The code of this project is absolutely not guaranteed to be without risks nor profitable. Time allowing, I will expand on the documentation and provide other examples. 
 
-If you'd wish to tip me for these measly lines of code, you may do so at ```0x15156ba57acce78843367f0a5816b52e06870ef5```.
+If you'd wish to tip me for these measly lines of code, you may do so at ```0x15156ba57acce78843367f0a5816b52e06870ef5```(Ethereum).
 
 # How to use
 
