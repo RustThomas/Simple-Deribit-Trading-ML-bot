@@ -11,6 +11,8 @@ If you'd wish to tip me for these measly lines of code, you may do so at 0x15156
 
 # Using
 
+Clone this repository with the command ```gh repo clone RustThomas/Simple-Deribit-Trading-ML-bot```
+
 This project requires Darts, Pandas. To install dependencies, you may use ```pip install -r requirements.txt```
 
 You will need to generate an API key on Deribit and then replace client_id and client_secret with yours. You can also change the instrument by using a different instrument_name.  
