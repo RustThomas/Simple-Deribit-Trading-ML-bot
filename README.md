@@ -3,7 +3,7 @@ Simple implementation of an automated trading bot on Deribit that uses a Darts m
 
 This bot was profitable during a testing period of a few days in october 2025. The current parameters achieved a mean directional accuracy of 70% on the testing data with the default reg:squarederror objective function.  However, manual trading proved to generate larger profits. 
 
-Significant tuning and changes are likely needed, including model, data and covariates. User defined metrics are likely very helpful. 
+Significant tuning and changes are likely needed, including model, data and covariates. User defined metrics are likely very helpful. Be aware of Regime Shifts. 
 
 The code of this project is absolutely not guaranteed to be without risks nor profitable. Extensive documentation of the code and further evolutions are in progress. 
 
