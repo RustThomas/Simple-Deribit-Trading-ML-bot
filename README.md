@@ -1,5 +1,5 @@
 # Simple-Deribit-Trading-ML-bot
-Simple implementation of an automated trading bot on Deribit that uses a model to predict price direction then open and closes orders.
+Simple implementation of an automated trading bot on Deribit that uses a Darts model to predict price direction at next time resolution then open and closes orders.
 
 This bot was profitable during a testing period of a few days in october 2025. However, manual trading proved to generate larger profits. 
 Significant tuning and changes are likely needed, including model, data and covariates. 
