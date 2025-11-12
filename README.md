@@ -8,7 +8,7 @@ It works as follows :
 This bot was profitable during a testing period of a few days in october 2025. The current parameters achieved a mean directional accuracy of 70% on the testing data with ```1 min``` resolution and the default xgboost ```reg:squarederror``` objective function.  However, manual trading proved to generate larger profits. 
 
 Significant tuning and changes are likely needed, including model, data and covariates. Consider user defined metrics, especially related to supports, resistances, maybe RSI and be aware of Regime Shifts.  
-You may try to use [Polars](https://pola.rs/) instead of [Pandas](https://pandas.pydata.org/) as well as other ML libraries. 
+You may try to use [Polars](https://pola.rs/) instead of [Pandas](https://pandas.pydata.org/) as well as other ML libraries. The trading logic is very primitive and needs improvement as well as exit logic. 
 
 You may also want to play with the percentage multiplication in the entry and exit orders : for example ```1.001``` is much more likely to be successul than ```1.005```, but would generally require maker rebates to be even slightly profitable. Different time resolution may be employed : ```1 min``` is what was extensively tested and used in the code, but ```5 min``` or more would trade off frequency for potentially larger moves. 
 
