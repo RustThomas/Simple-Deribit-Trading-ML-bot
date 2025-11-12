@@ -5,6 +5,7 @@ This bot was profitable during a testing period of a few days in october 2025. T
 
 Significant tuning and changes are likely needed, including model, data and covariates. Consider user defined metrics, especially related to supports, resistances, maybe RSI and be aware of Regime Shifts.  
 You may try to use [Polars](https://pola.rs/) instead of [Pandas](https://pandas.pydata.org/) as well as other ML libraries. 
+
 You may also want to play with the percentage multiplication in the entry and exit orders : for example ```1.001``` is much more likely to be successul than ```1.005```, but would generally require maker rebates to be even slightly profitable. Different time resolution may be employed : ```1 min``` is what was extensively tested and used in the code, but ```5 min``` or more would trade off frequency for potentially larger moves. 
 
 The code of this project is absolutely not guaranteed to be without risks nor profitable. Time allowing, I will refactor the code in modules, expand on the documentation and provide examples. 
